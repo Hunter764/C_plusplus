@@ -5,10 +5,9 @@ int main(){
     cout<<"Enter the number:";
     cin>>n;
     int sum=0;
-    int i=0; //loop variable
-    while(i<=n){  //condition
-      sum+=i;
-      i++;
+    for(int i=0;i<=n;i++){
+        sum+=i;
     }
+    
     cout<<sum<<endl;
 }
